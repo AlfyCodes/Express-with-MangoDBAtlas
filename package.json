@@ -1,0 +1,23 @@
+{
+  "name": "ExpressJS",
+  "version": "1.0.0",
+  "description": "Working on ExpressJS with Node.Js and others",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlfyCodesEducational/ExpressJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlfyCodesEducational/ExpressJS/issues"
+  },
+  "homepage": "https://github.com/AlfyCodesEducational/ExpressJS#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
