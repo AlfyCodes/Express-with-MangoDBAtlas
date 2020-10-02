@@ -1,9 +1,20 @@
 const express = require('express');
 const path = require ('path')
+const members = require('./Members')
 
 const app = express();
+//Middleware
+const logger =(req, res, next) => {
 
-const members = require('./Members')
+    console.log('Hello')
+    next();
+}
+
+//Init middleware
+app.use(logger);
+
+
+
 
 // Route to all members
 app.get('/api/members', (req, res)=>res.json(members));
